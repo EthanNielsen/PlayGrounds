@@ -3,5 +3,8 @@
 import Cocoa
 
 var myName :String
-var otherName = "Words"
-var thisName :String = "meow"
+var thisName :String = "Worlds"
+let otherName = "meow"
+
+let newMew = otherName.replacingOccurrences(of: "meow", with: "mew", options: .literal)
+
