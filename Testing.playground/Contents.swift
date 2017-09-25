@@ -2,6 +2,11 @@
 
 import Cocoa
 
+var age = 2833
+var speed = 652.298382
+var rate = age/Int (speed)
+var ratez = Double (age)/speed)
+
 var myName :String
 var thisName :String = "World"
 let otherName = "meow"
@@ -26,4 +31,3 @@ var age = 2833
 var speed = 652.298382
 var rate = age/Int (speed)
 var ratez = Double (age)/speed)
-print(rate)
