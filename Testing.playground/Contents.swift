@@ -2,15 +2,20 @@
 
 import Cocoa
 
-public func isReallySimplee() -> Void
+public func isReallySimple() -> Void
 {
     print("It will be warm this weeken!!!! Yay for 70+ grees")
 }
+isReallySimple()
 
-
-
-
-
+public func aBitLessSimple(name: String) -> Void
+{
+    let answer = "My name is not " + name
+    print(answer)
+}
+aBitLessSimple(name: "slim shady")
+let words = "Marshall Mathers"
+aBitLessSimple(name: words)
 
 
 
