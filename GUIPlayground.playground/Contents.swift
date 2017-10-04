@@ -20,6 +20,14 @@ myView.backgroundColor = .yellow
 myView.backgroundColor = .green
 
 
-var myFunnyButton = UIButton(frame: CGRect(x: 7, y: 7, width: 100, height: 50))
+var myFunnyButton = UIButton(frame: CGRect(x: 10, y: 10, width: 500, height: 50))
 myFunnyButton.setTitle("DANK MEMES", for: .normal)
-myFirst
+myFunnyButton.backgroundColor = .red
+
+var myYaBoi = UIButton(frame: CGRect(x: 10, y: 10, width: 400, height: 50))
+myYaBoi.setTitle("It's Ya Boi", for: .normal)
+myYaBoi.backgroundColor = .blue
+
+String = itsyaboi
+
+var SuperLabel = UILabel(frame: CGRect(x: 30, y: 25, width 500, height: 60))
