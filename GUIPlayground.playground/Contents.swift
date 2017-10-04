@@ -28,6 +28,7 @@ var myYaBoi = UIButton(frame: CGRect(x: 10, y: 10, width: 400, height: 50))
 myYaBoi.setTitle("It's Ya Boi", for: .normal)
 myYaBoi.backgroundColor = .blue
 
-String = itsyaboi
+var words = "I'm a Label!"
 
-var SuperLabel = UILabel(frame: CGRect(x: 30, y: 25, width 500, height: 60))
+var superLabel = UILabel(frame: CGRect(x: 30, y: 25, width: 500, height: 60))
+superLabel.text = words
